@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: independent_ref_test_cases
+    columns:
+      - name: actual
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "= expected"
