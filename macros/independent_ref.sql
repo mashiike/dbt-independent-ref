@@ -3,6 +3,7 @@
 --
 -- This dbt package is released under the MIT License.
 -- license that can be found in the LICENSE file.
+-- https://github.com/mashiike/dbt-independent-ref/blob/main/LICENSE
 #}
 
 {%- macro independent_ref() %}
