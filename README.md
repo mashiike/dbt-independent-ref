@@ -53,7 +53,7 @@ limit 100
 ```
 
 models/processed_list.sql
-```
+```sql
 {{
     config(
         materialized='incremental',
